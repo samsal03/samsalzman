@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Salzman Mendez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Samuel Salzman Mendez</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a film production student at California State University, Northridge. I am in independent filmmaker - specializing in cinematography, photography, and editing in Los Angeles, CA.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Social Media</h2>
+        <div class="project">
+            <h3><a href="https://www.youtube.com/smallsman8">YouTube</a></h3>
+            <p>Here is where a few of my short films are, a majority of my work is on my brother's YouTube channel below.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://www.youtube.com/@danielbarrera7518">My Brother's YouTube Channel</a></h3>
+            <p>Here's where most of my cinematography work is uploaded.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://www.instagram.com/sam_salzman/">Instagram</a></h3>
+            <p>Here is where a lot of the same content in the above YouTube channels is uploaded, but in vertical "short forrm" formats, primariy for Instagram Reels.</p>
+        </div>
+    </div>
+    <div class="project">
+        <h3><a href="https://www.linkedin.com/in/samsalzman/">Linkedin</a></h3>
+        <p>For professional reasons, here is my Linkedin profile.</p>
+    </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 samsalzman.com. All rights reserved.</p>
+    </footer>
+</body>
+</html>
